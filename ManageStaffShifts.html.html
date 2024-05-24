@@ -1,0 +1,77 @@
+<style>
+  body {
+    background-color: #1e1e1e
+  }
+
+  h3{
+    color: rgb(255, 255, 255);
+  }
+
+  .btn1{
+    color: black;
+    height: 100;
+    position: relative;
+    border-color: black;
+    background-color: red;
+  }
+
+  .btn1:hover{
+    transition: 0.8s;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 0);
+  }
+
+.btn1::before{
+  content: "Start Shift";
+  color: black;
+}
+
+.btn2{
+  content: "End Shift";
+  color: black;
+    height: 100;
+    position: relative;
+    border-color: black;
+    background-color: red;
+}
+
+.btn2::before{
+  content: "End Shift";
+}
+
+.btn2:hover{
+  transition: 0.8s;
+  color: black;
+  background-color: rgb(0, 255, 0);
+}
+
+.btn3{
+color: black;
+background-color: red;
+height: 100;
+position: relative;
+}
+
+.btn3::before{
+  content: "Go Back";
+}
+
+.btn3:hover{
+  transition: 0.8s;
+  color: black;
+  background-color: rgb(0, 255, 0);
+}
+</style>
+
+<h3>Here you can start your shift And End your shift</h3>
+
+<a href="started.html">
+<button class="btn1"></button>
+</a>
+
+<a href="end.html">
+  <button class="btn2"></button>
+</a>
+<a href="index.html">
+  <button class="btn3"></button>
+</a>
